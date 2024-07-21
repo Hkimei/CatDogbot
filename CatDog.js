@@ -1,3 +1,5 @@
+const port = process.env.PORT || 3000;
+
 const { ClarifaiStub, grpc } = require("clarifai-nodejs-grpc");
 const fs = require("fs");
 const kuromoji = require('kuromoji');
