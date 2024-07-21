@@ -1,10 +1,3 @@
-require('dotenv').config();
-
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
-
 
 const { ClarifaiStub, grpc } = require("clarifai-nodejs-grpc");
 const fs = require("fs");
